@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+        "spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/apm-install-dir-118119-99387-3tay3s.5cxasxxbt9"
+    ]
+  ],
+  "_from": "../d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+  "_id": "scroll-through-time@0.3.0",
+  "_inCache": true,
+  "_location": "/scroll-through-time",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+    "spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+  "_shasum": "462bed4bd113165fa69320916196891ce0895e90",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118119-99387-qy6t1g.c113df5hfr/package.tgz",
+  "_where": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/apm-install-dir-118119-99387-3tay3s.5cxasxxbt9",
+  "bugs": {
+    "url": "https://github.com/mathieudutour/scroll-through-time/issues"
+  },
+  "dependencies": {},
+  "description": "Two fingers scroll moves through time instead of space",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mathieudutour/scroll-through-time#readme",
+  "keywords": [
+    "scroll",
+    "time",
+    "space",
+    "xkcd"
+  ],
+  "license": "MIT",
+  "main": "./lib/scroll-through-time",
+  "name": "scroll-through-time",
+  "optionalDependencies": {},
+  "readme": "# scroll-through-time\n\nTwo fingers (horizontal) scroll moves through time instead of space in [Atom](https://atom.io/)\n\n![demo](https://github.com/mathieudutour/scroll-through-time/raw/master/screencast.gif)\n\n## Installation\n\n```\napm install scroll-through-time\n```\n\n## Why?\n![If used with software that could keep up, a scroll wheel mapped to send a stream of 'undo' and 'redo' events could be kind of cool.](https://imgs.xkcd.com/comics/borrow_your_laptop.png)\n_ xkcd ([#1806](https://xkcd.com/1806/))\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieudutour/scroll-through-time.git"
+  },
+  "version": "0.3.0"
+}

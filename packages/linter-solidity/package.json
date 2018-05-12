@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+        "spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/apm-install-dir-11813-33990-19zytgq.ujucgzaor"
+    ]
+  ],
+  "_from": "../d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+  "_id": "linter-solidity@0.5.0",
+  "_inCache": true,
+  "_location": "/linter-solidity",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+    "spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+  "_shasum": "b6d3d97bca3460572e5f48cb858c3ee60e5e0a9d",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-11813-33990-1dmn81s.zjcu2l0udi/package.tgz",
+  "_where": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/apm-install-dir-11813-33990-19zytgq.ujucgzaor",
+  "bugs": {
+    "url": "https://github.com/Latrasis/linter-solidity/issues"
+  },
+  "dependencies": {
+    "atom-linter": "^4.3.4",
+    "solc": "^0.4.1"
+  },
+  "description": "Linter support for Solidity",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Latrasis/linter-solidity#readme",
+  "keywords": [
+    "solidity",
+    "solc",
+    "ethereum",
+    "ether",
+    "linter"
+  ],
+  "license": "MIT",
+  "main": "./lib/linter.js",
+  "name": "linter-solidity",
+  "optionalDependencies": {},
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "readme": "# [linter-solidity](https://atom.io/packages/linter-solidity)\n\nSolidity Linter for Atom\n\n## Installation\n```bash\n$ apm install linter #(if you don't have AtomLinter/Linter installed).\n$ apm install linter-solidity\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Latrasis/linter-solidity.git"
+  },
+  "scripts": {
+    "postinstall": "node ./formatSolc.js"
+  },
+  "version": "0.5.0"
+}

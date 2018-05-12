@@ -1,0 +1,18 @@
+"*":
+  "atom-clock":
+    dateFormat: "h:mm a"
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "city-lights-ui"
+      "city-lights-syntax"
+    ]
+  editor:
+    fontFamily: "Menlo"
+  "exception-reporting":
+    userId: "537b4061-a59b-4578-bf8a-ec277f154f81"
+  "linter-ui-default": {}
+  "scroll-through-time":
+    direction: "right"
+  welcome:
+    showOnStartup: false

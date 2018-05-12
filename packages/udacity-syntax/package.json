@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118018-64207-164obvs.kys5opqfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118018-64207-164obvs.kys5opqfr/package.tgz",
+        "spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118018-64207-164obvs.kys5opqfr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/apm-install-dir-118018-64207-11zyk88.zunozp8pvi"
+    ]
+  ],
+  "_from": "../d-118018-64207-164obvs.kys5opqfr/package.tgz",
+  "_id": "udacity-syntax@0.0.9",
+  "_inCache": true,
+  "_location": "/udacity-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118018-64207-164obvs.kys5opqfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118018-64207-164obvs.kys5opqfr/package.tgz",
+    "spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118018-64207-164obvs.kys5opqfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118018-64207-164obvs.kys5opqfr/package.tgz",
+  "_shasum": "6d50b2974f8da236452c16748fadc22ccc469801",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/d-118018-64207-164obvs.kys5opqfr/package.tgz",
+  "_where": "/private/var/folders/cp/8r4dz2hx7dx5lj97kztll52r0000gn/T/apm-install-dir-118018-64207-11zyk88.zunozp8pvi",
+  "bugs": {
+    "url": "https://github.com/udacity/atom-theme-content/issues"
+  },
+  "dependencies": {},
+  "description": "Official Udacity Syntax Theme for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/udacity/atom-theme-content#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "udacity",
+    "light"
+  ],
+  "license": "MIT",
+  "name": "udacity-syntax",
+  "optionalDependencies": {},
+  "readme": "# Official Udacity Syntax Theme for Atom\n\nCurrently supports syntax highlighting for:\n* CSS\n* HTML\n* JavaScript\n* Python\n\n(Not that it'll break if you try to use any other language, it's just that they haven't been configured.)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udacity/atom-theme-content.git"
+  },
+  "theme": "syntax",
+  "version": "0.0.9"
+}
